@@ -3,6 +3,7 @@
     "description": "todo list based on flat files DB",
     "type": "project",
     "require": {
+        "php": "^7.1",
         "symfony/console": "^3.3",
         "league/flysystem": "^1.0",
         "jms/serializer": "^1.9",
@@ -20,5 +21,10 @@
     ],
     "config": {
         "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
     }
 }
