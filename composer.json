@@ -1,0 +1,24 @@
+{
+    "name": "karion/todolist",
+    "description": "todo list based on flat files DB",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.3",
+        "league/flysystem": "^1.0",
+        "jms/serializer": "^1.9",
+        "league/container": "^2.4"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Szymczyk",
+            "email": "tomasz.szymczyk@karion.net.pl"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    }
+}
